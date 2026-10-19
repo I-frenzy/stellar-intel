@@ -12,6 +12,7 @@ import { parseListedAnchors } from '@/lib/stellar/listed-anchor-schema';
 import apsTokens from './aps-tokens.json';
 import audd from './audd.json';
 import blackRidgeTrust from './black-ridge-trust.json';
+import cru from './cru.json';
 import fxdao from './fxdao.json';
 import gmoTrust from './gmo-trust.json';
 import gratz from './gratz.json';
@@ -35,6 +36,7 @@ const RAW: unknown[] = [
   apsTokens,
   audd,
   blackRidgeTrust,
+  cru,
   fxdao,
   gmoTrust,
   gratz,
